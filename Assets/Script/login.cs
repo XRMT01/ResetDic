@@ -31,6 +31,7 @@ public class login : MonoBehaviour
     #endregion
     private void Start()
     {
+        DisableBothButtons();
         RegisterButton.onClick.AddListener(async () =>
         {
             await Register(TMP_UserName.text, TMP_Password.text);
@@ -111,6 +112,7 @@ public class login : MonoBehaviour
             UserPage.SetActive(true);
             LoginPage.SetActive(false);
             SetLoginInfo(response);
+            EnableBothButtons();
         }
     }
 
@@ -148,6 +150,7 @@ public class login : MonoBehaviour
 
             response = JsonUtility.FromJson<AuthResponse>(webRequest.downloadHandler.text);
             Debug.Log("登录成功 - Token: " + response.token + ", Message: " + response.message);
+            EnableBothButtons();
             // 登录成功界面切换
             UserPage.SetActive(true);
             LoginPage.SetActive(false);
@@ -161,6 +164,28 @@ public class login : MonoBehaviour
 
         UserNameText.text = $"玩家:{request.user.username}";
         ScoreText.text = "登录成功"/*$"Score:{request.user.score.ToString()}"*/;
+    }
+    
+    public Button button1;
+    public Button button2;
+
+
+    public void DisableBothButtons()
+    {
+        if (button1 != null)
+            button1.interactable = false;
+
+        if (button2 != null)
+            button2.interactable = false;
+    }
+
+    public void EnableBothButtons()
+    {
+        if (button1 != null)
+            button1.interactable = true;
+
+        if (button2 != null)
+            button2.interactable = true;
     }
 }
 
