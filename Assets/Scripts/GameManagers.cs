@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameMangers : MonoBehaviour
+public class GameManagers : MonoBehaviour
 {
-    public static GameMangers Instance;
+    public static GameManagers Instance;
 
     public SettingModel SettingModel = new SettingModel();
     void Start()

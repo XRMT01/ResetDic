@@ -47,17 +47,17 @@ public class SettingViews : BaseViews
 
     private void MusicVolumeChange()
     {
-        MusicVolume.value = GameMangers.Instance.SettingModel.MusicBackgroundVolume;
+        MusicVolume.value = GameManagers.Instance.SettingModel.MusicBackgroundVolume;
     }
 
     private void SoundVolumeChange()
     {
-        SoundVolume.value = GameMangers.Instance.SettingModel.MusicSoundVolume;
+        SoundVolume.value = GameManagers.Instance.SettingModel.MusicSoundVolume;
     }
 
     private void SoundStateChange()
     {
-        if (GameMangers.Instance.SettingModel.IsSoundState)
+        if (GameManagers.Instance.SettingModel.IsSoundState)
         {
             ToggleSoundOn.isOn = true;
         }
@@ -69,7 +69,7 @@ public class SettingViews : BaseViews
 
     private void MusicStateChange()
     {
-        if (GameMangers.Instance.SettingModel.IsMusicState) 
+        if (GameManagers.Instance.SettingModel.IsMusicState) 
         {
             ToggleMusicOn.isOn = true;
         }else 

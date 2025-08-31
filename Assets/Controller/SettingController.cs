@@ -41,7 +41,7 @@ public class SettingController : MonoBehaviour
         m_views.Mask.onClick.AddListener(() =>
         {
             HideMe();
-            GameMangers.Instance.SettingModel.SaveSetting();
+            GameManagers.Instance.SettingModel.SaveSetting();
             MusicController.Instance.PlaySound(null);
         });
 
@@ -67,13 +67,13 @@ public class SettingController : MonoBehaviour
     private void OnMusicVolume(float arg0)
     {
 
-        GameMangers.Instance.SettingModel.MusicBackgroundVolume = arg0;
+        GameManagers.Instance.SettingModel.MusicBackgroundVolume = arg0;
         EventCenter.TriggerEvent("OnMusicVolume");
     }
 
     private void OnSoundVolume(float arg0)
     {
-        GameMangers.Instance.SettingModel.MusicSoundVolume = arg0;
+        GameManagers.Instance.SettingModel.MusicSoundVolume = arg0;
         EventCenter.TriggerEvent("OnSoundVolume");
     }
 
@@ -81,28 +81,28 @@ public class SettingController : MonoBehaviour
     private void ToggleSoundOff(bool arg0)
     {
         MusicController.Instance.PlaySound(null);
-        GameMangers.Instance.SettingModel.IsSoundState = false;
+        GameManagers.Instance.SettingModel.IsSoundState = false;
         MusicController.Instance.PlaySound(false);
     }
 
     private void ToggleSoundOn(bool arg0)
     {
         MusicController.Instance.PlaySound(null);
-        GameMangers.Instance.SettingModel.IsSoundState = true;
+        GameManagers.Instance.SettingModel.IsSoundState = true;
         MusicController.Instance.PlaySound(true);
     }
 
     private void ToggleMusicOff(bool arg0)
     {
         MusicController.Instance.PlaySound(null);
-        GameMangers.Instance.SettingModel.IsMusicState = false;
+        GameManagers.Instance.SettingModel.IsMusicState = false;
         MusicController.Instance.PlayMusic(false);
     }
 
     private void ToggleMusicOn(bool arg0)
     {
         MusicController.Instance.PlaySound(null);
-        GameMangers.Instance.SettingModel.IsMusicState = true;
+        GameManagers.Instance.SettingModel.IsMusicState = true;
         MusicController.Instance.PlayMusic(true);
     }
 }

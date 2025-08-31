@@ -13,14 +13,23 @@ public class MusicController : MonoBehaviour
     public AudioClip clickSound;
     private int index;
 
-    public static MusicController Instance;
+    private static MusicController instance;
+    public static MusicController Instance 
+    {
+        get
+        {
+            if (instance == null)
+            {
+                MusicController obj = Instantiate(Resources.Load<MusicController>("Prefabs/Function/MuiscBakcground"));
+                DontDestroyOnLoad(obj);
+                instance = obj.GetComponent<MusicController>();
+            }
+            return instance;
+        }
+    }
 
     private List<AudioSource> SoundAudioSoures = new List<AudioSource>();
     private bool isPlaySound = true;
-    private void Awake()
-    {
-        Instance = this;
-    }
 
     private void OnEnable()
     {
@@ -37,13 +46,35 @@ public class MusicController : MonoBehaviour
     {
         foreach (var item in SoundAudioSoures)
         {
-            item.volume = GameMangers.Instance.SettingModel.MusicSoundVolume;
+            item.volume = GameManagers.Instance.SettingModel.MusicSoundVolume;
         }
     }
 
     private void OnMusicValume()
     {
-        audioSource.volume = GameMangers.Instance.SettingModel.MusicBackgroundVolume;
+        audioSource.volume = GameManagers.Instance.SettingModel.MusicBackgroundVolume;
+    }
+    // 切换下一首
+    public void ChangeMusic(int index = -1)
+    {
+        // index 如果为-1 则播放下一首
+
+        if (index == -1)
+        {
+            if (this.index < BgList.Count - 1)
+            {
+                this.index++;
+            }
+            else
+            {
+                this.index = 0;
+            }
+            _PlayMusic(this.index);
+        }
+        else
+        {
+            _PlayMusic(index);
+        }
     }
 
 
@@ -65,11 +96,14 @@ public class MusicController : MonoBehaviour
         _PlayMusic(index);
     }
 
+
     private void _PlayMusic(int index)
     {
         this.index = index;
+        audioSource.Stop(); // 强制停止当前播放
         audioSource.clip = BgList[index];
-        audioSource.Play();
+        audioSource.time = 0; // 重置播放时间为0
+        audioSource.Play();   // 开始播放新音乐
     }
 
     // 停止音乐
@@ -78,27 +112,22 @@ public class MusicController : MonoBehaviour
         audioSource.Pause();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         if (audioSource.clip == null || !audioSource.isPlaying) return;
-        // 获取当前音乐播放时长
+
         float time = audioSource.time;
-        if (time >= audioSource.clip.length)
+        if (time >= audioSource.clip.length - 0.1f) // 增加容错（0.1秒）
         {
-            // 播放完毕
             if (index < BgList.Count - 1)
             {
-                // 播放下一首
                 index++;
                 _PlayMusic(index);
-                audioSource.time = 0;
             }
             else
             {
-                // 播放完毕
-                _PlayMusic(0);
-                audioSource.time = 0;
                 index = 0;
+                _PlayMusic(0);
             }
         }
     }

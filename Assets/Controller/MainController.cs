@@ -6,6 +6,7 @@ using UnityEngine;
 public class MainController : MonoBehaviour
 {
     private MainViews m_views;
+    public MainViews MainViews { get { return m_views; } }
 
     private static MainController m_instance = null;
     public static MainController Instance
@@ -53,6 +54,12 @@ public class MainController : MonoBehaviour
     {
         MusicController.Instance.PlaySound(null);
         Debug.Log("开始加载游戏...");
+        LoadsManager.Instance.LoadScene("Level", () => 
+        {
+            MusicController.Instance.ChangeMusic();
+        });
+        m_views.StatrLoads();
+        
     }
     private void ClikeSettingBtn()
     {
