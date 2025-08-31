@@ -16,6 +16,7 @@ public class GameManagers : MonoBehaviour
 
         // º”‘ÿ…Ë÷√
         SettingModel.LoadSetting();
+        DontDestroyOnLoad(this);
     }
 
     void Update()

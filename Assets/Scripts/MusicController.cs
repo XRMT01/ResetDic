@@ -20,7 +20,7 @@ public class MusicController : MonoBehaviour
         {
             if (instance == null)
             {
-                MusicController obj = Instantiate(Resources.Load<MusicController>("Prefabs/Function/MuiscBakcground"));
+                MusicController obj = Instantiate(Resources.Load<MusicController>("Prefabs/Function/MusicBakcground"));
                 DontDestroyOnLoad(obj);
                 instance = obj.GetComponent<MusicController>();
             }
@@ -165,5 +165,11 @@ public class MusicController : MonoBehaviour
         }
         source.clip = clip == null ? clickSound : clip;
         source.Play();
+    }
+    // ¹ý³ÌÇå³ý»º´æ
+
+    public void CloseSound() 
+    {
+        SoundAudioSoures.Clear();
     }
 }

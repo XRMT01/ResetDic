@@ -1,0 +1,2192 @@
+fileFormatVersion: 2
+guid: 14ba8a82685bb9245ab35f1bbac858a1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelPanel_Background
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 913
+        width: 657
+        height: 1449
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6095ecb3845048d4f91c01dc97e87950
+      internalID: -281720988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_11111111
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1465
+        width: 653
+        height: 881
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3280bd38d057c4348ac59f72cbd1c804
+      internalID: 1097310430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_342
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1464
+        width: 653
+        height: 882
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408fb780aa6bb2740a5042bc1e044983
+      internalID: 742119823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_1111
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1337
+        width: 91
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0e9438a2b2e8f46937ba45d62350d4
+      internalID: 1368238229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_111
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1326
+        width: 344
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e25970184f9dd4fba884eb73825806
+      internalID: -938466525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_6
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1345
+        width: 93
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae817afd3a7fecc499dc42c5d65f4a56
+      internalID: -1366495447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_4
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1372
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d20ad3748030ae4b9ecf7586785a0f8
+      internalID: 568103709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_ds
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1368
+        width: 224
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed667a69bfee3d499536a24afafe9ea
+      internalID: -643149516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_1ds
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1368
+        width: 252
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbcd1713e79d3a40ae197c8061b5a2e
+      internalID: -26225513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_10
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 1336
+        width: 93
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd280900e7fa29640bf71e7d8d7d1616
+      internalID: -424293635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_11
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1207
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a78e9d38e65d6843a14f9efafbd2ce4
+      internalID: -959015260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_12
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1209
+        width: 115
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee38a33e0404fc94b94ded3f86b86219
+      internalID: 1578618345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_13
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1247
+        width: 260
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1752bcf2f3b6c245b9fb324598ca223
+      internalID: 1605879015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_14
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1280
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ffbc02422ae18419cf28837146e41c
+      internalID: -310087113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_15
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1241
+        width: 97
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd11c86b05d3c1d459ebbf221cd5eb5a
+      internalID: 1762719179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_16
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1263
+        width: 162
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac7459316f555046954dd86548d5571
+      internalID: -1596621991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_17
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1249
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4da912c8629d245946daf01fd45a5c
+      internalID: 2081973071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_18
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1233
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c717eeae4e40cb4eb6d89041507d5da
+      internalID: 1217954652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_19
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1209
+        width: 378
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61ca275d781854408fed08ea0ac5ec3
+      internalID: -1058745368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_20
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 1146
+        width: 83
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b1a39d27ca3bf44aeac2ccda2caef8
+      internalID: -1664944270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_21
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1175
+        width: 383
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af9e8aab7a55254b87b3358c6fe3c84
+      internalID: 2039903637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_22
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 1162
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0701997c76cb9d47870d81bfbf3c17e
+      internalID: -720195452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_23
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 1162
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed7d73a9248d63479be9b9dec59d2b8
+      internalID: 1910124419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_24
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1066
+        width: 146
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338db745440a9724d916542cf2851115
+      internalID: 140970765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_25
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1155
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8d86e003889c349ae966f9136be566
+      internalID: 501360532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_26
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1116
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec428003e4b41648bf76fb0c814f688
+      internalID: -189512784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_27
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 1064
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae895c5a17c70d44dbcdcd3b226fc37e
+      internalID: -394979872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_28
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1067
+        width: 23
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774efc043628eba4e9e14b7dc6f5adda
+      internalID: 2076685106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_29
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1069
+        width: 41
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712b4e7872460234eaa54c66ce674de4
+      internalID: -2040713498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_30
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1070
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf80e0b1ffec7847acb29c105a94365
+      internalID: -2044081280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_31
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 1065
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f440e39ccc5e8de4398f5763da51722a
+      internalID: -843972483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_32
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1065
+        width: 41
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6351e32e8563a4abe1353eae566dbb
+      internalID: 1102678584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_33
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1069
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af30e130f1e788e4da8c78d1e40161c2
+      internalID: 1330317786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_34
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 1070
+        width: 42
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d3deefcc0593949a59fb6a8f4fe027
+      internalID: -1460564666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_35
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 1064
+        width: 40
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef2b30e9d2e1e744ac392465c8c050c
+      internalID: 1089505559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_36
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 1067
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9c68a8a260de440a190f2838127ac1
+      internalID: 1727068696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_37
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 1066
+        width: 35
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67d02e9a068b7f4f9b7d32d9c4bc39f
+      internalID: -1921654110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_38
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1100
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9966d5b7d0b2a949b52ff3688ffe52b
+      internalID: -396060319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_39
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1082
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bfb276f102195448be70cb21a36ffe
+      internalID: -793198658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_40
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1081
+        width: 387
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3943b2c62f36234ab623b976d1324e3
+      internalID: -2057582875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_41
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 951
+        width: 68
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746e3554866250d4297cc0a7c3d859c2
+      internalID: 1971598781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_42
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 952
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ffe3211a7fc704e9a69be6fc13b787
+      internalID: -1104392970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_43
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1005
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df133d20a3faf98458c8d6879caa443f
+      internalID: -503651117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_44
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 944
+        width: 256
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7336a855123c4c46b871ecaef44c436
+      internalID: 11809299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_45
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 958
+        width: 212
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e5cdb97fe2b5343a55dee065fc8413
+      internalID: 353793911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_46
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 976
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3351644a4e7225148961bbb43d3786cd
+      internalID: -1199224752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_47
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 953
+        width: 376
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2fc737368bfb549ad1f5bed263b58f
+      internalID: -122993824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_48
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 958
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebea0ce3c9037e7479a03e4425dd9f7b
+      internalID: 105583347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_Bottom
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 603
+        width: 660
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9f0f7fe354f0d48bdd09fe45f67333
+      internalID: -1575897245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_50
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 674
+        width: 207
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2635ecef0850bfd4d81382b3931f79b0
+      internalID: 861089802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_51
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 718
+        width: 237
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4cc48f9025a3741a6d055bef493bca
+      internalID: 247440336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_52
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 673
+        width: 210
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6a6534479f19447b93ebe49a0b22ef
+      internalID: -620217898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_53
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 853
+        width: 252
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9d51ab6ab84024db2ad29d555d17b9
+      internalID: 538894304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_54
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 723
+        width: 344
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa146fd67897d45468150873133bd9d5
+      internalID: -1131077157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_55
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 744
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3a0cc43a2e3324bb6ee38b65a17617
+      internalID: -1513963466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_56
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 743
+        width: 91
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5985119274e2347866bf4ab306d11e
+      internalID: -1212398630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_Shopping
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 417
+        width: 167
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29fe88ea65ce2041b56ff8ce051339f
+      internalID: -1636776681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_Ranking
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 416
+        width: 143
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4570ff1e8a4273a43a481836f68307e4
+      internalID: 623905084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_Start
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 419
+        width: 319
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d45722673f60db4bb07cc806021efbb
+      internalID: -113403069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_60
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 454
+        width: 605
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b8e7ca6056b534f92623d1e61d15f6
+      internalID: -640673544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_PlayCount
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 340
+        width: 164
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef95514a2f841e45be9af62ee1a7a3d
+      internalID: -242314653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_PlayCountAdd
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 345
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8c8fd1a5d38784590336e71eac36b5
+      internalID: 1514626260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_SettingUp
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 327
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c97188af3a3f44f9a8b58f3501eebc
+      internalID: -251171715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_64
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 340
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a085a38e42f6a0419e594443738590e
+      internalID: -1506023699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_65
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 335
+        width: 73
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff41cb07ecbbe14a914cec4cc4f2dc2
+      internalID: -2146997117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_66
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 360
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a106abf13b98f64190629615c90c6e2
+      internalID: 861784604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_67
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 336
+        width: 84
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c667706db3f33c4ca5ea3ce6b86cbe0
+      internalID: 1612372546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_RankingBackground
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 288
+        width: 144
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f580a1fe78851284fa46c320208e31ac
+      internalID: -1633911571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_ShoppingBackground
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 280
+        width: 175
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4c3486dc4b5834ca34ac4ddcf4f437
+      internalID: 1270230787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_72
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 269
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f32de7e0a9320f4eb350a485a572ff0
+      internalID: -263015285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_UserScoreAdd
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 281
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafeb68b3e1139b44b070d6e33a5e2ae
+      internalID: 2010415405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_SettingDom
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 257
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9572230a74eae044e862e02d048c0e44
+      internalID: 1642469252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_75
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 268
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74d6dda8ea6218439318749ff7faa5e
+      internalID: 1287033379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_76
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 292
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ec2f4148f7f59419537ee30deb25ef
+      internalID: -586244120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_77
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 264
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c44ef954de5cd4590bbc33d39d2c37
+      internalID: 1199769942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_UserScore
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 276
+        width: 170
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d5c3c87371f11419dcdb5024fe357c
+      internalID: 863765490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_Box
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 170
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f03046a6bb1c8647b0c3816a99b45c8
+      internalID: 49865591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_User
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 131
+        width: 110
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cad0ff62867cef49a9f705042042f24
+      internalID: -554421870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_81
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 219
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30ed78ea86694f4995ea12269fd992a
+      internalID: -43614592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_score1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 141
+        width: 66
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd09daa818a1034e83a500105113702
+      internalID: 1935430114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_1
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 163
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5253f44789087c458c5f62778eabcdc
+      internalID: -1395683904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_2
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 163
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6d91a390315574198821ed1f8ff629
+      internalID: -2070440656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_3
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 162
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32546e6eba102454597e9d6a9cbc6473
+      internalID: 1103312156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_86
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 163
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5d95a4d03a59e49ad25908d554908e
+      internalID: -1470341662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_5
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 164
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9ed16204332c9459d1e31c648e6ae7
+      internalID: -484200998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_88
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 163
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c178a20b375d9640858854daee2718b
+      internalID: -262499956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_7
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 162
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb99e1591ab31c445b627dc6e2f27ce3
+      internalID: -1882678856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_8
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 162
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfcdfe8122767d47a3b715e8d92ce5e
+      internalID: -1109865941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_9
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 164
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f62e0609ed4974180a1874244fbf40
+      internalID: 1264794380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_0
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 167
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e024feb54705942bcdad987de1f3da
+      internalID: -1150425986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_score2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 115
+        width: 66
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba4f34cbb945714f8d6cffb8c935108
+      internalID: 233387131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelPanel_score3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 88
+        width: 66
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e308f550717214e92af1dc49589a45
+      internalID: 1491592607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelPanel_0: -1150425986
+      LevelPanel_1: -1395683904
+      LevelPanel_10: -424293635
+      LevelPanel_11: -959015260
+      LevelPanel_111: 568103709
+      LevelPanel_1111: 1097310430
+      LevelPanel_11111111: 568103709
+      LevelPanel_12: 1578618345
+      LevelPanel_13: 1605879015
+      LevelPanel_14: -310087113
+      LevelPanel_15: 1762719179
+      LevelPanel_16: -1596621991
+      LevelPanel_17: 2081973071
+      LevelPanel_18: 1217954652
+      LevelPanel_19: -1058745368
+      LevelPanel_1ds: -26225513
+      LevelPanel_2: -2070440656
+      LevelPanel_20: -1664944270
+      LevelPanel_21: 2039903637
+      LevelPanel_22: -720195452
+      LevelPanel_23: 1910124419
+      LevelPanel_24: 140970765
+      LevelPanel_25: 501360532
+      LevelPanel_26: -189512784
+      LevelPanel_27: -394979872
+      LevelPanel_28: 2076685106
+      LevelPanel_29: -2040713498
+      LevelPanel_3: 1103312156
+      LevelPanel_30: -2044081280
+      LevelPanel_31: -843972483
+      LevelPanel_32: 1102678584
+      LevelPanel_33: 1330317786
+      LevelPanel_34: -1460564666
+      LevelPanel_342: -643149516
+      LevelPanel_35: 1089505559
+      LevelPanel_36: 1727068696
+      LevelPanel_37: -1921654110
+      LevelPanel_38: -396060319
+      LevelPanel_39: -793198658
+      LevelPanel_4: 742119823
+      LevelPanel_40: -2057582875
+      LevelPanel_41: 1971598781
+      LevelPanel_42: -1104392970
+      LevelPanel_43: -503651117
+      LevelPanel_44: 11809299
+      LevelPanel_45: 353793911
+      LevelPanel_46: -1199224752
+      LevelPanel_47: -122993824
+      LevelPanel_48: 105583347
+      LevelPanel_5: -484200998
+      LevelPanel_50: 861089802
+      LevelPanel_51: 247440336
+      LevelPanel_52: -620217898
+      LevelPanel_53: 538894304
+      LevelPanel_54: -1131077157
+      LevelPanel_55: -1513963466
+      LevelPanel_56: -1212398630
+      LevelPanel_6: -1366495447
+      LevelPanel_60: -640673544
+      LevelPanel_64: -1506023699
+      LevelPanel_65: -2146997117
+      LevelPanel_66: 861784604
+      LevelPanel_67: 1612372546
+      LevelPanel_7: -1882678856
+      LevelPanel_70: -698436670
+      LevelPanel_71: -263015285
+      LevelPanel_72: 1287033379
+      LevelPanel_75: -586244120
+      LevelPanel_76: 1199769942
+      LevelPanel_77: -643149516
+      LevelPanel_8: -1109865941
+      LevelPanel_81: -1395683904
+      LevelPanel_86: -484200998
+      LevelPanel_88: -1882678856
+      LevelPanel_9: 1264794380
+      LevelPanel_Background: 49865591
+      LevelPanel_Bottom: -242314653
+      LevelPanel_Box: 1514626260
+      LevelPanel_PlayCount: 623905084
+      LevelPanel_PlayCountAdd: -1633911571
+      LevelPanel_Ranking: 1642469252
+      LevelPanel_RankingBackground: -251171715
+      LevelPanel_SettingDom: -1636776681
+      LevelPanel_SettingUp: 1270230787
+      LevelPanel_Shopping: -113403069
+      LevelPanel_ShoppingBackground: -554421870
+      LevelPanel_Start: 863765490
+      LevelPanel_User: 2010415405
+      LevelPanel_UserScore: 1935430114
+      LevelPanel_UserScoreAdd: 233387131
+      LevelPanel_ds: -26225513
+      LevelPanel_score1: 1491592607
+      LevelPanel_score2: 1368238229
+      LevelPanel_score3: -938466525
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

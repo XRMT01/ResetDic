@@ -41,6 +41,7 @@ public class MainController : MonoBehaviour
     {
         m_views = this.GetComponent<MainViews>();
 
+        m_views.animator.SetTrigger("trigger");
         m_views.btn_Start.onClick.AddListener(ClikeLoadGameBtn);
         m_views.btn_Setting.onClick.AddListener(ClikeSettingBtn);
     }
@@ -53,13 +54,62 @@ public class MainController : MonoBehaviour
     private void ClikeLoadGameBtn()
     {
         MusicController.Instance.PlaySound(null);
+        // 判断当前是否登陆
+        // 读取本地存储cookie
+        string Token = PlayerPrefs.GetString("token", null);
+        Debug.Log(Token);
+        if (string.IsNullOrEmpty(Token))
+        {
+            Debug.Log("请先登录...");
+            LoginController.ShowMe();
+        }
+        else
+        {
+            // 验证是否已经过期
+            RequestController.Instance.GetRequest("user/profile", Token, (response) =>
+            {
+                AuthResponse authResponse = JsonUtility.FromJson<AuthResponse>(response);
+                Debug.Log(authResponse.user.uid);
+                Debug.Log(PlayerPrefs.GetString("uid"));
+                if (authResponse.user.uid != PlayerPrefs.GetString("uid"))
+                {
+                    Debug.Log("请重新登录...");
+                    LoginController.ShowMe();
+                }
+                else 
+                {
+                    Debug.Log("欢迎回来，" + authResponse.user.username);
+                    Debug.Log("当前分数：" + authResponse.user.score);
+                    PlayerPrefs.SetInt("score", authResponse.user.score);
+                    PlayerPrefs.Save();
+
+                    m_views.animator.SetTrigger("trigger");
+                    Debug.Log("开始加载游戏...");
+                    LoadsManager.Instance.LoadScene("Level", () =>
+                    {
+                        MusicController.Instance.ChangeMusic();
+                        m_views.animator.SetTrigger("trigger");
+                    });
+                    m_views.StatrLoads();
+                }
+            });
+
+
+            
+        }
+        
+    }
+
+    public void ClikeEneterGame() 
+    {
+        m_views.animator.SetTrigger("trigger");
         Debug.Log("开始加载游戏...");
-        LoadsManager.Instance.LoadScene("Level", () => 
+        LoadsManager.Instance.LoadScene("Level", () =>
         {
             MusicController.Instance.ChangeMusic();
+            m_views.animator.SetTrigger("trigger");
         });
         m_views.StatrLoads();
-        
     }
     private void ClikeSettingBtn()
     {

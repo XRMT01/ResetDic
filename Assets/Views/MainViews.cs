@@ -14,6 +14,8 @@ public class MainViews : BaseViews
     public Slider slider_Loading;
     public TMP_Text text_Loading;
 
+    [Header("¶¯»­")]
+    public Animator animator;
     private void Start()
     {
         slider_Loading.gameObject.SetActive(false);

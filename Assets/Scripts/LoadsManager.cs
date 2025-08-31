@@ -32,6 +32,7 @@ public class LoadsManager : MonoBehaviour
     }
     private void _LoadScene(string sceneName) 
     {
+        MusicController.Instance.CloseSound();
         StartCoroutine(LoadSceneAsync(sceneName));
     }
 
